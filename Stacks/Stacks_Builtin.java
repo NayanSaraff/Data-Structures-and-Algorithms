@@ -15,9 +15,13 @@ public class Stacks_Builtin
             System.out.println("No element in stack");
         }
     }
-    int Peek()
+    void Peek()
     {
-        return stack.peek();
+        try {
+            System.out.println(stack.peek()+" is the top most element");
+        } catch (Exception e) {
+            System.out.println("No element in stack");
+        }
     }
     boolean Empty()
     {
@@ -57,7 +61,7 @@ public class Stacks_Builtin
                     break;
             case 2: stk.Pop();
                     break;
-            case 3: System.out.println(stk.Peek()+" is the topmost element");
+            case 3: stk.Peek();
                     break;
             case 4: boolean ans = stk.Empty();
                     if(ans)
