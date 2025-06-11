@@ -6,3 +6,5 @@
 6) Delete a Node from linked list without head pointer
 7) Sort a linked list of 0s, 1s and 2s
 8) Pairwise Swap Elements of a given Linked List
+9) Delete last occurrence of an item from linked list
+10) Reverse a linked list in groups of given size
